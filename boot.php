@@ -49,7 +49,7 @@ define ( 'PLATFORM_NAME',            'redmatrix' );
 define ( 'RED_VERSION',             trim(file_get_contents('version.inc')) . 'R');
 define ( 'ZOT_REVISION',            1     );
 
-define ( 'DB_UPDATE_VERSION',       1161  );
+define ( 'DB_UPDATE_VERSION',       1162  );
 
 /**
  * @brief Constant with a HTML line break.
@@ -73,7 +73,8 @@ define ( 'DIRECTORY_MODE_STANDALONE',  0x0100);
 // a standalone hub, we need to seed the service with a starting
 // point to go out and find the rest of the world.
 
-define ( 'DIRECTORY_REALM',            'INTERNET');
+define ( 'DIRECTORY_REALM',            'RED_GLOBAL');
+define ( 'GLOBAL_REALM',					'INTERNET');
 define ( 'DIRECTORY_FALLBACK_MASTER',  'https://beardyunixer.com');
 
 $DIRECTORY_FALLBACK_SERVERS = array(
@@ -82,6 +83,7 @@ $DIRECTORY_FALLBACK_SERVERS = array(
 
 $FRIENDICA_DIRECTORY_SERVERS = array( 
 	'https://fd.beardyunixer.com/submit',
+	'https://beardyunixer.com/submit'
 );
 
 /**

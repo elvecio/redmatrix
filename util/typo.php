@@ -48,6 +48,13 @@
 		include_once($file);
 	}
 
+	echo "Directory: install\n";
+	$files = glob('mod/*.php');
+	foreach($files as $file) {
+		echo $file . "\n";
+		include_once($file);
+	}
+
 	echo "Directory: addon\n";
 	$dirs = glob('addon/*');
 

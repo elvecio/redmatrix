@@ -2285,7 +2285,7 @@ function handle_tag($a, &$body, &$access_tag, &$str_tags, $profile_uid, $tag, $d
 		}
 		if($tag == '#getzot') {
 			$basetag = 'getzot'; 
-			$url = 'http://hubzilla.org';
+			$url = 'http://github.com/beardyunixer/redmatrix';
 			$newtag = '#[zrl=' . $url . ']' . $basetag . '[/zrl]';
 			$body = str_replace($tag,$newtag,$body);
 			$replaced = true;

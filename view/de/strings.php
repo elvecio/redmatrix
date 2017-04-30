@@ -1093,7 +1093,7 @@ $a->strings["This is a hub of \$Projectname - a global cooperative network of de
 $a->strings["Tag: "] = "Schlagwort: ";
 $a->strings["Last background fetch: "] = "Letzter Hintergrundabruf:";
 $a->strings["Running at web location"] = "Erreichbar unter der Web-Adresse";
-$a->strings["Please visit <a href=\"http://hubzilla.org\">hubzilla.org</a> to learn more about \$Projectname."] = "";
+$a->strings["Please visit <a href=\"https://github.com/beardyunixer/redmatrix\">our code repository</a> to learn more about \$Projectname."] = "";
 $a->strings["Bug reports and issues: please visit"] = "Probleme oder Fehler gefunden? Bitte besuche";
 $a->strings["\$projectname issues"] = "\$projectname-Bugtracker";
 $a->strings["Suggestions, praise, etc. - please email \"redmatrix\" at librelist - dot com"] = "Vorschläge, Lob, usw.: E-Mail an 'redmatrix' at librelist - dot - com";

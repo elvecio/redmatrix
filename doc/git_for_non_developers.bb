@@ -14,7 +14,13 @@ Once you've done that, cd into the directory, and add an upstream.
 
 [code]
 cd red
-git remote add upstream https://github.com/redmatrix/redmatrix
+git remote add upstream https://github.com/beardyunixer/redmatrix
+[/code]
+
+Now, checkout to the development branch.
+
+[code]
+git checkout dev
 [/code]
 
 From now on, you can pull upstream changes with the command
@@ -23,7 +29,7 @@ From now on, you can pull upstream changes with the command
 Before your changes can be merged automatically, you will often need to merge upstream changes.
 
 [code]
-git merge upstream/master
+git merge upstream/dev
 [/code]
 
 You should always merge upstream before pushing any changes, and [i]must[/i] merge upstream with any pull requests to make them automatically mergeable.

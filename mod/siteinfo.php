@@ -5,7 +5,7 @@ function siteinfo_init(&$a) {
 	
 	if ($a->argv[1]=="json"){
 		$register_policy = Array('REGISTER_CLOSED', 'REGISTER_APPROVE', 'REGISTER_OPEN');
-		$directory_mode = Array('DIRECTORY_MODE_NORMAL', 'DIRECTORY_MODE_SECONDARY','DIRECTORY_MODE_PRIMARY', 'DIRECTORY_MODE_STANDALONE');
+		$directory_mode = Array('DIRECTORY_MODE_NORMAL', 'DIRECTORY_MODE_PRIMARY','DIRECTORY_MODE_SECONDARY', 'DIRECTORY_MODE_STANDALONE');
 		
 		$sql_extra = '';
 
@@ -161,11 +161,10 @@ function siteinfo_content(&$a) {
 		'$lastpoll' => get_poller_runtime(),
 		'$commit' => $commit,
 		'$web_location' => t('Running at web location') . ' ' . z_root(),
-		'$visit' => t('Please visit <a href="http://hubzilla.org">hubzilla.org</a> to learn more about $Projectname.'),
+		'$visit' => t('Please visit <a href="http://github.com/beardyunixer.com/redmatrix">our repository</a> to learn more about $Projectname.'),
 		'$bug_text' => t('Bug reports and issues: please visit'),
-		'$bug_link_url' => 'https://github.com/redmatrix/redmatrix/issues',
+		'$bug_link_url' => 'https://github.com/beardyunixer/redmatrix/issues',
 		'$bug_link_text' => t('$projectname issues'),
-		'$contact' => t('Suggestions, praise, etc. - please email "redmatrix" at librelist - dot com'),
 		'$donate' => $donate,
 		'$adminlabel' => t('Site Administrators'),
 		'$admininfo' => $admininfo,
