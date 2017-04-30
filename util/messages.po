@@ -8105,7 +8105,7 @@ msgstr ""
 
 #: ../../mod/siteinfo.php:164
 msgid ""
-"Please visit <a href=\"http://hubzilla.org\">hubzilla.org</a> to learn more "
+"Please visit <a href=\"https://github.com/beardyunixer/redmatrix\">our code repository</a> to learn more "
 "about $Projectname."
 msgstr ""
 

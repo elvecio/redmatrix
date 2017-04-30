@@ -73,8 +73,8 @@ Zot ist das großartige neue Kommunikationsprotokoll, das extra für die RedMatr
 
 [h3]Externe Ressourcen[/h3]
 [zrl=[baseurl]/help/external-resource-links]Links zu externen Ressourcen[/zrl]
-[url=https://github.com/redmatrix/redmatrix]Haupt-Website[/url]
-[url=https://github.com/redmatrix/redmatrix-addons]Addons-Website[/url]
+[url=https://github.com/beardyunixer/redmatrix]Haupt-Website[/url]
+[url=https://github.com/beardyunixer/redmatrix-addons]Addons-Website[/url]
 [url=https://zothub.com/channel/one]Entwickler-Kanal[/url]
 [url=https://federated.social/channel/postgres]Postgres-spezifischer Admin-Support-Kanal[/url]
 
